@@ -1,0 +1,152 @@
+main {
+  background-image: linear-gradient( 
+    0deg, 
+    #9ca2ac 2%, 
+    #757e8c 10%, 
+    #607d8b 35%, 
+    #0092ca 70% 
+  );
+}
+main section img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+main section {
+  padding: 20px;
+  margin: auto;
+}
+.div-cars-cart {
+  margin: 15px auto 15px;
+
+  height: 180px;
+  border: solid 1px;
+  position: relative;
+  padding: 10px;
+  background-color: #e3e4e5;
+  border-radius: 10px;
+}
+.div-cars-cart-img {
+  margin: auto;
+  border-radius: 8px;
+  border: solid 1px;
+  height: 100px;
+  padding: 2px;
+}
+
+
+.div-cars-cart-p {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.car-data-container {
+  display: flex;
+  justify-content: space-between;
+}
+.fa-heart {
+  color: red;
+  margin-right: 10px;
+  margin-top: 8px;
+}
+.car-search-error {
+  text-align: center;
+  margin-bottom: 40px
+}
+.car-search-button {
+  margin-top: 10px;
+  height: 35px;
+  width: 140px;
+  border-radius: 10px;
+  background-color: #0092ca;
+  color: white;
+  border: solid 2px;
+  transition: 0.5s all ease;
+}
+
+.car-search-button:hover {
+  background-color: #2073e6;
+}
+
+h2 {
+  color: white;
+}
+.btn-Reserve {
+  margin-top: 4px;
+  height: 25px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #0092ca;
+  color: white;
+  border: solid 2px black;
+}
+.p-estatus {
+  color: #5c5e60;
+}
+h3,
+.p {
+  color: #5c5e60;
+}
+/* p {
+  font-style: italic;
+} */
+.ups-h2 {
+  color: white;
+}
+
+@media (min-width: 768px) {
+  header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+  }
+
+  .burguer-menu {
+    display: none;
+  }
+
+  .nav_header {
+    display: flex;
+    align-self: flex-end;
+  }
+
+  .nav_header ul {
+    display: flex;
+  }
+
+  .nav_header ul li {
+    margin-right: 25px;
+  }
+  .car-data-container {
+    width: 60%;
+  }
+  .div-cars-cart {
+    display: flex;
+    height: 150px;
+    max-width: 1024px;
+    margin: 15px auto 15px;
+    align-items: center;
+    border-radius: 8px;
+    padding-right: 20px;
+  }
+  .p-estatus {
+    text-align: right;
+    padding: 15px 15px;
+  }
+  .div-cars-cart-img {
+    height: 100%;
+    width: 35%;
+  }
+  /* .car-data1 {
+    /* margin: auto; */
+  /* } */
+  .car-data2 {
+    width: 100px;
+  }
+  main section {
+    max-width: 1024px;
+  }
+  main section h2 {
+    margin: auto;
+  }
+}
